@@ -1,14 +1,43 @@
 * {
     margin: 0%;
     padding: 0%;
+    font-family: 'Raleway', sans-serif;
 }
 
 .container {
     background-image: url(images/bg-mobile.png);
 }
 .card {
-    padding: 5%;
+    padding: 10%;
+}
+.icon {
+    margin-top: 8%;
+    margin-left: 5%;
 }
 .card1 {
-    background-color: aqua;
+    border-radius: 5px 50px 5px 5px;
+    margin-top: 30%;
+    padding: 6%;
+    background-color: hsl(228, 56%, 26%);
+}
+.card2{
+    background-color: hsl(228, 56%, 26%);
+    margin-top: 5%;
+    border-radius: 5px 5px 5px 5px;
+    padding: 8%;
+    color:white;
+}
+.card-parag {
+    text-align: center;
+    margin-left: -3%;
+    font-weight: 400;
+}
+.logo {
+    margin-left: 5%;
+}
+.progress-at {
+    border-radius: 30%;
+    width: 20%;
+    height: 15%;
+    background-color: turquoise;
 }
